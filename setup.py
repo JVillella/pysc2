@@ -59,7 +59,7 @@ setup(
     install_requires=[
         'absl-py>=0.1.0',
         'deepdiff',
-        'enum34',
+        'enum34;  python_version <= "3.4"',
         'future',
         'futures; python_version == "2.7"',
         'mock',
